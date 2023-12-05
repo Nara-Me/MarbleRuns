@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&display=swap");
+
+
+body {
+  margin: 0;
+  padding: 0;
+  /*overflow: hidden;*/
+  /*background-color: black;*/
+}
+
+canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/*.Teams canvas{
+  overflow-x: scroll;
+}*/
+
+.block {
+  /*display:none;*/
+  padding: 10vw;
+  padding-right: 30vw;
+}
+
+.titulo {
+  /*color: #bebebe;*/
+  color: white;
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 8rem;
+}
+
+.frase {
+  color: #FFF;
+  font-family: "IBM Plex Mono";
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
